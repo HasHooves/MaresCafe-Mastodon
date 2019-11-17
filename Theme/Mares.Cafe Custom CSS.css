@@ -28,6 +28,10 @@
     --I-Dont-Know-3:#0b1d3a;
 }
 
+body {
+    background-color: var(--Cappuccino);
+}
+
 .search__input {
     background-color: var(--Pale-Gold);
 }
@@ -90,6 +94,6 @@ article, .status-public, .activity-stream .entry, .column>.scrollable, .drawer__
 }
 
 .column-subheading, .search-results__header, .search-results__section h5 {
-    background-color: var(--Column-SubHeading-Dark);
-    color: var(--Column-SubHeading-Light);
+    background-color: var(--Cappuccino);
+    color: var(--White-Swan);
 }

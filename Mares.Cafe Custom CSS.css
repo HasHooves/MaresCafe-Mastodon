@@ -1,0 +1,95 @@
+:root {
+    --Pale-Gold:#c99b69;
+    --Copper:#be7c5a;
+    --Cappuccino:#6a4d45;
+    --Picante:#924a3c;
+    --Orange-Ochre:#df7f45;
+    --Chantrelle:#a38c7a;
+    --Apricot-Ice:#fcc09b;
+    --White-Swan:#e1d5c5;
+    --Seeking:#19e207;
+    --Search-Input: #4e3451;
+    --Search-Results: #182a3c;
+    --Status-Links: #73a9d1;
+    --Account-Header-Div: rgba(27, 42, 69, 0.9);
+    --Header-Footer: #243d63;
+    --Landing-Page: #213759;
+    --Column-Header: #1b2a45;
+    --Status-Reply: #071a3a;
+    --Column-Link-Light:#8ba9c7;
+    --Column-Link-Dark:#1e2a3e;
+    --Column-Link-Hover:#21314b;
+    --Detailed-Status:#1c2d49;
+    --Getting-Started:#002b55;
+    --Column-SubHeading-Light:#7398bc;
+    --Column-SubHeading-Dark:#002549;
+    --I-Dont-Know-1:#08152b;
+    --I-Dont-Know-2:#0f2a54;
+    --I-Dont-Know-3:#0b1d3a;
+}
+
+.search__input {
+    background-color: var(--Pale-Gold);
+}
+
+.search-results {
+    background-color: var(--Chantrelle);
+}
+
+.landing-page__forms, .public-layout .header, .public-layout .footer {
+    background-color: var(--Cappuccino);
+}
+
+.landing-page__call-to-action, .detailed-status {
+    background-color: var(--Cappuccino);
+}
+
+.account__section-headline, .column-header__back-button {
+    background-color: var(--Picante) !important;
+}
+
+.status-link {
+    color: var(--White-Swan) !important;
+}
+
+.account__header>div {
+    background: var(--Account-Header-Div);
+}
+
+.account__header .account__header__fields dt, .public-account-bio .account__header__fields dt, .column-header, .column-header__button, .column-back-button, .hero-widget__text, .status.status-direct:not(.read) {
+    background-color: var(--Cappuccino);
+}
+
+.account__header .account__header__fields dd, .public-account-bio .account__header__fields dd, .drawer__inner, .drawer__inner__mastodon {
+    background-color: var(--Chantrelle);
+}
+
+article, .status-public, .activity-stream .entry, .column>.scrollable, .drawer__header, .landing-page__information {
+    background-color: var(--Cappuccino);
+}
+
+.column-link {
+    color: var(--Pale-Gold);
+    background-color: var(--Cappuccino);
+}
+
+.column-link:hover {
+    background-color: var(--Picante);
+}
+
+.status-reply {
+    background-color: var(--Apricot-Ice);
+}
+
+.detailed-status__action-bar {
+    background-color: var(--Cappuccino);
+}
+
+.getting-started, .public-layout .public-account-bio {
+    background-color: var(--Copper);
+}
+
+.column-subheading, .search-results__header, .search-results__section h5 {
+    background-color: var(--Column-SubHeading-Dark);
+    color: var(--Column-SubHeading-Light);
+}

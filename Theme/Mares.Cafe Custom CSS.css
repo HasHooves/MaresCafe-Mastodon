@@ -1,7 +1,9 @@
 :root {
     --Pale-Gold:#c99b69;
     --Copper:#be7c5a;
+    --Havana:#472117;
     --Cappuccino:#6a4d45;
+    --Expresso:#302522;
     --Picante:#924a3c;
     --Orange-Ochre:#df7f45;
     --Chantrelle:#a38c7a;
@@ -29,7 +31,8 @@
 }
 
 body {
-    background-color: var(--Cappuccino);
+    background-color: var(--Expresso);
+    color: var(--Search-Input);
 }
 
 .search__input {
@@ -81,6 +84,10 @@ article, .status-public, .activity-stream .entry, .column>.scrollable, .drawer__
     background-color: var(--Picante);
 }
 
+.column-link--transparent.active {
+    color: var(--Orange-Ochre)
+}
+
 .status-reply {
     background-color: var(--Apricot-Ice);
 }
@@ -96,4 +103,24 @@ article, .status-public, .activity-stream .entry, .column>.scrollable, .drawer__
 .column-subheading, .search-results__header, .search-results__section h5 {
     background-color: var(--Cappuccino);
     color: var(--White-Swan);
+}
+
+.search__icon .fa, .icon-button {
+    color: var(--Search-Input)
+}
+
+.navigation-bar {
+    color: var(--Apricot-Ice)    
+}
+
+::-webkit-scrollbar-thumb {
+    background:var(--Copper);
+}
+
+.getting-started__footer a{
+    color: var(--White-Swan);
+}
+
+.getting-started__footer p {
+    color: var(--Chantrelle)
 }

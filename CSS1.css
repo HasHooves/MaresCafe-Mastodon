@@ -8,9 +8,9 @@
     /*1*/
         --Grey-1:#d5cab9;
     /*2*/
-        --Grey-2:#610a4a;
+        --Grey-2:#8d3f78;
     /*3*/
-        --Grey-3:#9c5e8c;
+        --Grey-3:#a16492;
     /*4*/
         --Grey-4:#5f0d49;
     /*BLACKS*/
@@ -33,9 +33,9 @@
             --MainThemeColor-Light:#cebb6a;
         /*Mid*/
             --MainThemeColor-Mid:#733162;
-            --MainThemeColor-Mid-Desaturated:#837365;
+            --MainThemeColor-Mid-Desaturated:#796273;
         /*Dark*/
-            --MainThemeColor-Dark:#351d0a;
+            --MainThemeColor-Dark:#340a35;
     /*SparkLine*/
         --SparkLine-Fill: 156, 94, 140;
     /**/
@@ -324,7 +324,7 @@ body.error {
 }
 
 .box-widget {
-    background: var(--Almost-Black);
+    background: var(--Grey-4);
 }
 
 .placeholder-widget {
